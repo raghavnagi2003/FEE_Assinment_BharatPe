@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display :flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.div1{
+    display:flex;
+    justify-content:space-around;
+    font-size: 20px;
+    gap: 50px;
+    align-items: center;
+    font-weight: bold;
+    
+
+}
+a{
+    text-decoration: none;
+      color: black ;
+}
+a:hover{
+    color: #2f15d8;
+}
+button{
+    font-size: large;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: #1825b6;
+    background-color: #ffffff;
+}
+ main{
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+ }  
+.div2{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.img2{
+    border-radius: 20px;
+}
+p{
+    font-size: large;
+}
+.color{
+    color: rgb(51, 100, 173);
+    
+}
+.content{
+    display:inline-block;
+}.div3{
+    background: #1c1c1c;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.div3-heading{
+    color: white;
+    font-family: 'Montserrat', serif;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.div3-content{
+    display: flex;
+    justify-content: center;
+}
+
+.div3-box{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3-box-image{
+    width: 180px;
+    height: 140px;
+    padding: 20px;
+}  
+
+.div3-box-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.div3-box-text1{
+    font-family: 'Montserrat', serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.div3-box-text2{
+    font-family: 'Montagu Slab', serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.div7{
+    background: url("https://bharatpe.com/wp-content/themes/betheme/images/bg-home-banner-lg.jpg");
+    height: 600px;
+    text-align: center;
+    padding: 50px;
+}
+
+.div7-heading{
+    font-family: 'Montserrat', serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.div7-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div7-box{
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div7-box-video{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: yellow;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.div7-box-video iframe{
+    height: 100%;
+    height: 100%;
+}
+
+
+
+.box-text1{
+    font-family:  'Montserrat', serif;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.box-text2{
+    font-family:  'Montagu Slab', serif;
+    font-size: 17px;
+    color: rgb(129, 129, 129);
+
+}
+
+.view-more button{
+    width: 150px;
+    height: 40px;
+    background: white;
+    font-family: 'Montserrat', serif;
+    font-size: 15px;
+    color: #2b7bff ;
+    border-color: #2b7bff;
+    border-radius: 5px;
+
+    transition: box-shadow 0.3s ease;
+
+&:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background:#2b7bff ;
+    color: white;
+}
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin-right: 200px;
+    padding: 20px;
+}
+.footer-section1{
+    margin: 10px;
+    padding-right: 100px;
+    padding-left: 500px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #3498db;
+}
+
+.play-store-btn img {
+    width: 120px; 
+    height: auto;
+    margin-right: 10px;
+}
+.pg2{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    background-color:white ;
+    padding: 15px 20px;
+    border-radius: 15px;
+    display: flex;
+    gap :20px;
+}
+.box2{
+    background-color:white ;
+    border-radius: 20px;
+    padding: 20px;
+}
+.ag{
+    border-radius: 10px;
+    padding: 5px;
+}
